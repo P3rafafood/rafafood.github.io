@@ -1,3 +1,16 @@
+import { initializeCart } from 'viewCart.html'; // Sesuaikan dengan nama file JavaScript Anda
+
+// Panggil fungsi untuk menginisialisasi keranjang
+initializeCart();
+
+export let URLGeoJson = "mongodb+srv://p3orderfood:ratuifah26@cluster0.0himu8k.mongodb.net/";
+export let tableTag="tr";
+export let tableRowClass="content is-small";
+export let tableTemplate=`
+<td>#CART TITLE#</td>
+<td>#CART QUANTITY#</td>
+<td>#CART PRICE#</td>
+`
 document.addEventListener('DOMContentLoaded', () => {
     // Define an array to store the cart items
     const cart = [];
