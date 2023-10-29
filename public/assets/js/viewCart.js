@@ -11,6 +11,19 @@ export let tableTemplate=`
 <td>#CART QUANTITY#</td>
 <td>#CART PRICE#</td>
 `
+export function responseData(results){
+  console.log(results);
+  results.forEach(isiRow);
+}
+
+export function isiRow(value) {
+  let content = tableTemplate
+      .replace("#CART TITLE#", value.name)
+      .replace("#CART QUANTITY#", value.quantity)
+      .replace("#CART PRICE#", JSON.stringify(value.price));
+  console.log(content);
+  addChild("keranjang", tableTag, tableRowClass, content);
+}
 document.addEventListener('DOMContentLoaded', () => {
     // Define an array to store the cart items
     const cart = [];
