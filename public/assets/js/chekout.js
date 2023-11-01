@@ -1,3 +1,5 @@
+import { initializeCart } from 'menu.html';
+
 document.addEventListener('DOMContentLoaded', () => {
     const orderButton = document.querySelector('#orderButton');
     orderButton.addEventListener('click', () => {
@@ -12,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         metodePembayaran,
         items: [
           {
-            name: '',
+            name: 'Bakso Spesial',
             quantity: document.querySelector('.cart-quantity__btn').innerText,
             price: document.querySelector('.cart-quantity__price--value').innerText,
           },
