@@ -1,7 +1,7 @@
 // Import library MongoDB
 const MongoClient = require('mongodb').MongoClient;
 
-// URL koneksi MongoDB
+// Di isi dengan URL koneksi MongoDB yang sudah dibuat
 const url = 'mongodb+srv://p3orderfood:ratuifah26@cluster0.0himu8k.mongodb.net/'; // Ganti sesuai URL MongoDB Anda
 
 // Nama database
