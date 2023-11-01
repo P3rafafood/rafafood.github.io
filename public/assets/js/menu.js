@@ -33,14 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
         cartItem.classList.add('cart__item');
   
         cartItem.innerHTML = `
-          <div class="cart-title">${item.name}</div>
-          <div class="cart-quantity">
-            <button class="cart-quantity__btn">-</button>
-            <span class="cart-quantity__value">${item.quantity}</span>
-            <button class="cart-quantity__btn">+</button>
-          </div>
-          <div class="cart-quantity__price">Rp <span class="cart-quantity__price--value">${item.price * item.quantity}</span></div>
-          <button class="cart-remove__icon">Remove</button>
+          cart-title = ${item.name}
+          cart-quantity = ${item.quantity}
+          cart-quantity__price${item.price * item.quantity}
+          cart-remove__icon${item.remove}
         `;
   
         // Attach event listener for quantity changes
