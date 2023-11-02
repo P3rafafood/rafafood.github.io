@@ -1,3 +1,4 @@
+import { initializeCart } from 'login.html';
 // Import library MongoDB
 const MongoClient = require('mongodb').MongoClient;
 
