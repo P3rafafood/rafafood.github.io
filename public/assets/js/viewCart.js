@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateCart = () => {
       // Select the cart items
       const cartItems = document.querySelectorAll('.cart__item');
-  
+      // Menghitung Total
       let totalItems = 0;
       let totalCost = 0;
   
