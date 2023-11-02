@@ -296,7 +296,7 @@ var navbarInit = function navbarInit() {
         backgroundImage = _window$getComputedSt.backgroundImage;
 
     var transition = 'background-color 0.35s ease';
-    navbar.style.backgroundImage = 'none'; // Change navbar background color on scroll
+    navbar.style.backgroundImage = 'none'; // Ubah warna latar belakang navbar saat scroll
 
     window.addEventListener(Events.SCROLL, function () {
       var scrollTop = html.scrollTop;
