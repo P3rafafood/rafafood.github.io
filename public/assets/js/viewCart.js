@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         totalItems += itemQuantity;
         totalCost += itemQuantity * itemPrice;
   
-        // Update the cart array
+        //Perbarui susunan keranjang
         cart[index] = {
           name: itemName,
           quantity: itemQuantity,
