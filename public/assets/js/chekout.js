@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
       };
   
-      // Send the order data to the server
+      // Kirim data pesanan ke server
       fetch('/addOrder', {
         method: 'POST',
         headers: {
