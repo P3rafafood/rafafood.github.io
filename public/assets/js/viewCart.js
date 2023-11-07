@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
       });
   
-      // Update the HTML with the total items and cost
+      // Perbarui HTML dengan total item dan biaya
       const totalItemsElement = document.querySelector('#totalItems');
       const totalCostElement = document.querySelector('#totalCost');
   
