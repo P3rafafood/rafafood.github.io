@@ -305,7 +305,7 @@ var navbarInit = function navbarInit() {
       navbar.style.backgroundColor = "rgba(".concat(colorRgb[0], ", ").concat(colorRgb[1], ", ").concat(colorRgb[2], ", ").concat(alpha, ")");
       navbar.style.backgroundImage = alpha > 0 || utils.hasClass(navbarCollapse, 'show') ? backgroundImage : 'none';
       alpha > 0 || utils.hasClass(navbarCollapse, 'show') ? navbar.classList.add(shadowName) : navbar.classList.remove(shadowName);
-    }); // Toggle bg class on window resize
+    }); // Alihkan kelas bg pada pengubahan ukuran jendela
 
     utils.resize(function () {
       var breakPoint = utils.getBreakpoint(navbar);
