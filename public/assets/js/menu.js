@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cartContainer.appendChild(cartItem);
       });
   
-      // Calculate and display the total cost
+      // kalkulasi total element keranjang
       const totalCost = cart.reduce((total, item) => total + item.price * item.quantity, 0);
       const totalCostElement = document.querySelector('#totalCost');
       totalCostElement.textContent = `Total Cost: Rp ${totalCost}`;
