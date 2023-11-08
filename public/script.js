@@ -1,5 +1,5 @@
 import { initializeCart } from 'login.html';
-// Import library MongoDB
+// Impor perpustakaan MongoDB
 const MongoClient = require('mongodb').MongoClient;
 
 // Di isi dengan URL koneksi MongoDB yang sudah dibuat
