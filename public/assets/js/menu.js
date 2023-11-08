@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // If the item is already in the cart, increase the quantity
         existingItem.quantity++;
       } else {
-        // If the item is not in the cart, add it with a quantity of 1
+        // dropdown quantity
         cart.push({ ...item, quantity: 1 });
       }
   
