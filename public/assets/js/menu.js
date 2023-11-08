@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       updateCart();
     };
   
-    // Function to update the cart view
+    // Membuat Function to update the cart view
     const updateCart = () => {
       // Select the cart container
       const cartContainer = document.querySelector('#cart');
