@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const existingItem = cart.find((cartItem) => cartItem.name === item.name);
   
       if (existingItem) {
-        // If the item is already in the cart, increase the quantity
+        // Jika barang sudah ada di keranjang, tambah jumlahnya
         existingItem.quantity++;
       } else {
         // dropdown quantity
