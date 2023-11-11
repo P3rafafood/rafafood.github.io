@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             quantity: document.querySelector('.cart-quantity__btn').innerText,
             price: document.querySelector('.cart-quantity__price--value').innerText,
           },
-          // Add more items if needed
+          // tambahan pesanan lain
         ],
       };
   
