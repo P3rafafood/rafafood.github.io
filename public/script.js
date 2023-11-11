@@ -14,7 +14,7 @@ const collectionName = 'user'; // Ganti dengan nama koleksi Anda
 // Fungsi untuk menghubungkan ke database MongoDB
 MongoClient.connect(url, { useUnifiedTopology: true }, function(err, client) {
     if (err) {
-        console.error('Koneksi ke MongoDB gagal:', err);
+        console.error('Koneksi ke MongoDB tidak berhasil:', err);
         return;
     }
     
