@@ -20,7 +20,7 @@ MongoClient.connect(url, { useUnifiedTopology: true }, function(err, client) {
     
     console.log('Koneksi ke MongoDB berhasil');
     
-    // Gunakan database
+    // Use a database
     const db = client.db(dbName);
     
     // Contoh: Membaca data dari koleksi
