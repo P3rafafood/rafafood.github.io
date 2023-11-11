@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cart.push({ ...item, quantity: 1 });
       }
   
-      // Update pada tampilan cart view
+      // Update pada tampilan keranjang
       updateCart();
     };
   
