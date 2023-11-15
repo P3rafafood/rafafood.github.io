@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         metodePembayaran,
         items: [
           {
-            name: 'Bakso Spesial',
+            name: 'THAI TEE GREENTEA',
             quantity: document.querySelector('.cart-quantity__btn').innerText,
             price: document.querySelector('.cart-quantity__price--value').innerText,
           },
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
         .then((response) => {
           if (response.ok) {
-            alert('Order placed successfully.');
+            alert('Order sukses.');
           } else {
             alert('Failed to place the order.');
           }
