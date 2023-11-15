@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (response.ok) {
             alert('Order sukses.');
           } else {
-            alert('Failed to place the order.');
+            alert('Gagal order pesanan.');
           }
         })
         .catch((error) => {
