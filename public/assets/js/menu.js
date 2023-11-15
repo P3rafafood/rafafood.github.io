@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       totalCostElement.textContent = `Total Cost: Rp ${totalCost}`;
     };
   
-    // Function to handle quantity changes
+    // fungsi mengubah quantity pesanan 
     const handleQuantityChange = (item, change) => {
       if (change === '+' && item.quantity < 10) {
         item.quantity++;
