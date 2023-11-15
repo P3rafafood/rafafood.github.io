@@ -1,6 +1,6 @@
 import { initializeCart } from 'viewCart.html'; // Sesuaikan dengan nama file JavaScript Anda
 
-// Panggil fungsi untuk menginisialisasi keranjang
+//Call the function to initialize the bucket
 initializeCart();
 
 export let URLGeoJson = "mongodb+srv://p3orderfood:ratuifah26@cluster0.0himu8k.mongodb.net/";
