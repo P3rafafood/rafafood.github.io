@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
   
-    // Define an array of sample menu items (you can replace this with your data)
+    // data menu items (you can replace this with your data)
     const menuItems = [
       {
         name: '',
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     ];
   
-    // Create HTML elements for menu items
+    // membuat elemen html menuitems
     const menuContainer = document.querySelector('.menu__items');
     menuItems.forEach((item) => {
       const menuItem = document.createElement('div');
