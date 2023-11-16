@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemQuantity = parseInt(item.querySelector('.cart-quantity__btn').innerText);
         const itemPrice = parseFloat(item.querySelector('.cart-quantity__price--value').textContent);
   
-        // Update the total items and cost
+        // Update total items dan perhitungan jumlah pesanan harga
         totalItems += itemQuantity;
         totalCost += itemQuantity * itemPrice;
   
