@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Jika barang sudah ada di keranjang, tambah jumlahnya
         existingItem.quantity++;
       } else {
-        // dropdown quantity
+        // fitur dropdown quantity
         cart.push({ ...item, quantity: 1 });
       }
   
