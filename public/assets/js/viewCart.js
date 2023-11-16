@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const removeButtons = document.querySelectorAll('.cart-remove__icon');
     removeButtons.forEach((button, index) => {
       button.addEventListener('click', () => {
-        // Remove the item from the cart array and update the view
+        // hapus item dari keranjang
         cart.splice(index, 1);
         button.parentElement.parentElement.remove();
         updateCart();
