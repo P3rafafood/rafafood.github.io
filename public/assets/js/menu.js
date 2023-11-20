@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
   
-    // data menu items (you can replace this with your data)
+    // mereplace data menu item
     const menuItems = [
       {
         name: '',
