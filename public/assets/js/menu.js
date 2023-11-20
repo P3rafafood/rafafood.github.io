@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
           removeFromCart(item);
         });
   
-        // Append the cart item to the cart container
+        // Append the cart item to keranjang kontainer
         cartContainer.appendChild(cartItem);
       });
   
