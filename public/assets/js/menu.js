@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       updateCart();
     };
   
-    // Function to remove an item from the cart
+    // Fungsi menghapus menu item
     const removeFromCart = (item) => {
       const itemIndex = cart.findIndex((cartItem) => cartItem.name === item.name);
   
