@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Membuat Function to update the cart view
     const updateCart = () => {
-      // Select the cart container
+      // Memilih cart container
       const cartContainer = document.querySelector('#cart');
   
       // Clear the current cart content
       cartContainer.innerHTML = '';
   
-      // Loop through the cart items and create HTML elements for each item
+      // LMengulang cart items and create HTML elements for each item
       cart.forEach((item) => {
         const cartItem = document.createElement('div');
         cartItem.classList.add('cart__item');
