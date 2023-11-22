@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
       item_price.menuItem = ${item.price};`
         ;
   
-      // Attach event listener for "Tambah Pesanan" button click
+      // Membuat event listener untuk "Tambah Pesanan" dengan button click
       const addToCartButton = menuItem.querySelector('.add-cart-btn');
       addToCartButton.addEventListener('click', () => {
         handleAddToCart(item);
