@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define an array to store the cart items
     const cart = [];
   
-    // Function to update the cart and calculate totals
+    // Berfungsi untuk memperbarui keranjang dan menghitung total
     const updateCart = () => {
       // Select the cart items
       const cartItems = document.querySelectorAll('.cart__item');
