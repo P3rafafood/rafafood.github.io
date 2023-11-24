@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       let totalCost = 0;
   
       cartItems.forEach((item, index) => {
-        // Get item details
+        //Get detail barang
         const itemName = item.querySelector('.cart-title').textContent;
         const itemQuantity = parseInt(item.querySelector('.cart-quantity__btn').innerText);
         const itemPrice = parseFloat(item.querySelector('.cart-quantity__price--value').textContent);
