@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const nomerMeja = document.querySelector('input[name="nomer_meja"]').value;
       const metodePembayaran = document.querySelector('#type-menu').value;
   
-      // Construct untuk order pesanan
+      //Nilai untuk order pesanan
       const orderData = {
         nama,
         nomerMeja,
