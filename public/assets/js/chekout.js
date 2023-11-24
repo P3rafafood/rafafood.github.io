@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         metodePembayaran,
         items: [
           {
-            name: 'THAI TEE GREENTEA',
+            name: 'THAITEA GREENTEA',
             quantity: document.querySelector('.cart-quantity__btn').innerText,
             price: document.querySelector('.cart-quantity__price--value').innerText,
           },
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
         .then((response) => {
           if (response.ok) {
-            alert('Order sukses.');
+            alert('Order pesanan sukses.');
           } else {
             alert('Gagal order pesanan.');
           }
