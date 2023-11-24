@@ -50,19 +50,6 @@
       }
     }
   }
-
-  // Add event listeners to your "Tambah Pesanan" buttons
-  var addButtons = document.querySelectorAll(".add-cart-btn");
-  addButtons.forEach(function (button, index) {
-    button.addEventListener("click", function () {
-      var titleElement = document.querySelectorAll(".item__title")[index];
-      var priceElement = document.querySelectorAll(".item_price-value")[index];
-      var title = titleElement.innerHTML;
-      var price = priceElement.innerHTML;
-      addItemToCart(title, price);
-      updateCartDisplay();
-    });
-  });
 </script>
 
 
