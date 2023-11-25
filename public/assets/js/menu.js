@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define an array to store the cart items
     const cart = [];
   
-    // Function to handle "Tambah Pesanan" button click
+    // fungsi to handle "Tambah Pesanan" button click
     const handleAddToCart = (item) => {
       // Check if the item is already in the cart
       const existingItem = cart.find((cartItem) => cartItem.name === item.name);
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Clear the current cart content
       cartContainer.innerHTML = '';
   
-      // LMengulang cart items and create HTML elements for each item
+      // Mengulang cart items and create HTML elements for each item
       cart.forEach((item) => {
         const cartItem = document.createElement('div');
         cartItem.classList.add('cart__item');
