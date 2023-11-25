@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
       updateCart();
     };
   
-    // Membuat Function to update the cart view
+    // Membuat Function to update cart view
     const updateCart = () => {
       // Memilih cart container
       const cartContainer = document.querySelector('#cart');
   
-      // Clear the current cart content
+      // Clear cart content
       cartContainer.innerHTML = '';
   
       // Mengulang cart items and create HTML elements for each item
