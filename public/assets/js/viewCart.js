@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   
-    // klik tombol "Pesan".
+    // click the "Order" button.
     const pesanButton = document.querySelector('.btn-primary[href="chekout.html"]');
     pesanButton.addEventListener('click', () => {
       // You can send the `cart` array to the server for further processing
